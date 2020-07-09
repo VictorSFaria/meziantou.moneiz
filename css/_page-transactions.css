@@ -1,0 +1,51 @@
+﻿.transaction-state {
+  padding-left: 0;
+  padding-right: 0;
+  text-align: center;
+}
+
+.btn-transaction-status {
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.toolbar-left {
+  float: left;
+}
+
+.account-balance {
+  float: right;
+}
+
+  .account-balance > div {
+    display: flex;
+    margin-bottom: 4px;
+  }
+
+.account-balance-title {
+  font-weight: bold;
+  margin-right: 5px;
+  flex-grow: 1;
+}
+
+.toolbar:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.row-navigation {
+  text-align: center;
+}
+
+.amount-currency ~ .amount-value {
+  margin-left: 3px;
+}
+
+.amount-positive {
+  color: green;
+}
+
+.amount-negative {
+  color: red;
+}

@@ -1,0 +1,32 @@
+﻿.btn, button {
+  display: inline-block;
+  margin-bottom: 0;
+  font-weight: normal;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  background-image: none;
+  border: 1px solid transparent;
+  white-space: nowrap;
+  padding: 6px 12px;
+  font-size: var(--main-font-size);
+  border-radius: 4px;
+  text-decoration: none;
+  color: #fff;
+  background-color: #337ab7;
+  border-color: #2e6da4;
+}
+
+  .btn:hover, button:hover {
+    color: #fff;
+    background-color: #286090;
+    border-color: #204d74;
+    text-decoration: none;
+  }
+
+  .btn:focus, button:focus {
+    color: #fff;
+    background-color: #286090;
+    border-color: #122b40;
+    text-decoration: none;
+  }
